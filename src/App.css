@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #5d5d9f;
+}
+
+.heading{
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
+
+
+.addUser{
+cursor: pointer;
+border: none;
+border-radius: 8px;
+padding: 10px 15px;
+font-size: 14px;
+margin: 5px;
+background-color: aqua;
+transition: background-color 0.3s;
+}
+
+.cancelUser{
+cursor: pointer;
+border: none;
+border-radius: 8px;
+padding: 10px 15px;
+font-size: 14px;
+margin: 5px;
+background-color: red;
+transition: background-color 0.3s;
+}
+
+.addUser:hover {
+  opacity: 0.9;
+}
+
+.app {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+thead th {
+  background-color: #555;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+
+
+.editUser {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 5px 7px;
+  margin-right: 5px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.deleteUser {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 7px;
+  margin-right: 5px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+
+
+.form {
+  margin-top: 20px;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+.error {
+  color: red;
+  background: #fdd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  /* border: 1px solid red; */
+}
